@@ -30,7 +30,7 @@
 {
     color: #ec1321;
     left: 10%;
-    top: 20%;
+    top: 25%;
     position: relative;
     font-size: 60px;
 }
@@ -115,4 +115,51 @@ button:hover
     left: 35%;
     position: absolute;
     top: 0;
+}
+
+.menu a
+{
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    transition: 0.3s ease;
+    color: #fff ;
+}
+
+.menu a:nth-child(1)
+{
+    color: #ec1321;
+    font-weight: bold;
+}
+
+.menu a::after
+{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    background: #ec1321;
+    transition: 0.5s ease;
+}
+
+.menu a:hover
+{
+    color: #ec1321;
+    transition: 0.5s ease;
+}
+.menu a:hover::after
+{
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+img
+{
+    height: 600px;
+    right: 22%;
+    top: 17%;
+    position: absolute;
 }
