@@ -159,22 +159,31 @@ button:hover
     transition: 0.3s ease;
 }
 
-.img-coke1
+.img-coke1 img
 {
     height: 600px;
-    right: 22%;
-    top: 17%;
+    right: 34%;
+    top: 19%;
     position: absolute;
+    z-index: 2;
 }
-.img-coke2
+.img-coke2 img
 {
-    height: 700px;
-    margin-left: 10px;
-    right: 20%;
-    top: 17%;
+    height: 600px;
     position: absolute;
-    z-index: -1;
+    top: 19%;
+    right: 8%;
+    z-index: 3;
 }
+.img-coke3 img
+{
+    height: 630px;
+    position: absolute;
+    top: 19%;
+    right: 19%;
+    z-index: 3;
+}
+
 
 .media-shop
 {
